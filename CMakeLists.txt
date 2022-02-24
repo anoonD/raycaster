@@ -8,5 +8,5 @@ find_package(fmt)
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
 
-add_executable(raycaster raycaster.cpp)
+add_executable(raycaster src/raycaster.cpp)
 target_link_libraries(raycaster ${SDL2_LIBRARIES} fmt::fmt)
