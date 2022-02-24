@@ -125,7 +125,6 @@ int main(int argc, const char *argv[]) {
         /* Event Polling */
         polling();
 
-
         // Update Position
         movePlayer();
 
