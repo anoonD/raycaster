@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raycaster"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\nix\;CMake Files\..\..\..\..\nix\store\;CMake Files\..\..\..\..\nix\store\j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev\;CMake Files\..\..\..\..\nix\store\j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev\lib\;CMake Files\..\..\..\..\nix\store\j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev\lib\cmake\;CMake Files\..\..\..\..\nix\store\j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev\lib\cmake\fmt\;CMake Files\..\..\..\..\nix\store\cbc4aijx1b4lg471kayajpq1kjix597m-SDL2-2.0.14-dev\;CMake Files\..\..\..\..\nix\store\cbc4aijx1b4lg471kayajpq1kjix597m-SDL2-2.0.14-dev\lib\;CMake Files\..\..\..\..\nix\store\cbc4aijx1b4lg471kayajpq1kjix597m-SDL2-2.0.14-dev\lib\cmake\;CMake Files\..\..\..\..\nix\store\cbc4aijx1b4lg471kayajpq1kjix597m-SDL2-2.0.14-dev\lib\cmake\SDL2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mateo/coding/raycaster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mateo/coding/raycaster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mateo/coding/raycaster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raycaster">
+				<Option output="/home/mateo/coding/raycaster/cmake-build-debug/raycaster" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mateo/coding/raycaster/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/nix/store/cbc4aijx1b4lg471kayajpq1kjix597m-SDL2-2.0.14-dev/include/SDL2"/>
+					<Add directory="/nix/store/j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev/include"/>
+					<Add directory="/nix/store/jvr81blj4bqf58624b62dfiq9dgq0y4w-sfml-2.5.1/include"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/12z1nc5fmif2z7wian28n55j61acbmny-glibc-2.33-59-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 raycaster"/>
+					<CompileFile command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raycaster/fast">
+				<Option output="/home/mateo/coding/raycaster/cmake-build-debug/raycaster" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mateo/coding/raycaster/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/nix/store/cbc4aijx1b4lg471kayajpq1kjix597m-SDL2-2.0.14-dev/include/SDL2"/>
+					<Add directory="/nix/store/j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev/include"/>
+					<Add directory="/nix/store/jvr81blj4bqf58624b62dfiq9dgq0y4w-sfml-2.5.1/include"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/mrqrvina0lfgrvdzfyri7sw9vxy6pyms-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/12z1nc5fmif2z7wian28n55j61acbmny-glibc-2.33-59-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 raycaster/fast"/>
+					<CompileFile command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/h4iwyl9sq4myqdji0lbfb91gv44psvyl-gnumake-4.3/bin/make -j8 -f &quot;/home/mateo/coding/raycaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mateo/coding/raycaster/raycaster.cpp">
+			<Option target="raycaster"/>
+		</Unit>
+		<Unit filename="/home/mateo/coding/raycaster/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/mateo/coding/raycaster/../../../../nix/store/j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev/lib/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\nix\store\j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/mateo/coding/raycaster/../../../../nix/store/j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev/lib/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\nix\store\j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/mateo/coding/raycaster/../../../../nix/store/j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev/lib/cmake/fmt/fmt-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\nix\store\j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/mateo/coding/raycaster/../../../../nix/store/j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev/lib/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\nix\store\j24l44ncxb35wpj7pgdl0gdbqb1s0zi0-fmt-8.0.1-dev\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/mateo/coding/raycaster/../../../../nix/store/cbc4aijx1b4lg471kayajpq1kjix597m-SDL2-2.0.14-dev/lib/cmake/SDL2/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\nix\store\cbc4aijx1b4lg471kayajpq1kjix597m-SDL2-2.0.14-dev\lib\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/home/mateo/coding/raycaster/../../../../nix/store/cbc4aijx1b4lg471kayajpq1kjix597m-SDL2-2.0.14-dev/lib/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\nix\store\cbc4aijx1b4lg471kayajpq1kjix597m-SDL2-2.0.14-dev\lib\cmake\SDL2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
