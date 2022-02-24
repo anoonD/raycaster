@@ -1,3 +1,0 @@
-/home/mateo/coding/raycaster/build/CMakeFiles/rebuild_cache.dir
-/home/mateo/coding/raycaster/build/CMakeFiles/edit_cache.dir
-/home/mateo/coding/raycaster/build/CMakeFiles/raycaster.dir
